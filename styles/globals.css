@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* perso */
+.carousel{
+  border: 1px #F2CD98 solid;
+  padding: 15px;
+  margin: 15px;
+  width: 80%
+}
+.carousel-content{
+   color:  #F2CD98 ;
+}
+.carousel-content-container{
+   background-color:  #F2CD98 ;
+   border: 1px solid #D2AB7A;
+   opacity: 0.9;
+}
+.control-next-previous{
+  color: #D2AB7A;
+}
+.title{
+  color:#F2CD98;
+  font-size: 1.5rem;
+}
+.item{
+   border: 1px #F2CD98 solid;
+}
