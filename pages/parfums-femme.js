@@ -6,6 +6,7 @@ import Header from '../components/Header'
 import Carousel from '../components/Carousel'
 import Footer from '../components/Footer'
 import { Waypoint } from 'react-waypoint';
+import Script from 'next/script'
 
 export default function Livres({posts}) {
 
@@ -18,9 +19,9 @@ export default function Livres({posts}) {
       <Head>
         <title>Create Next App</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
       </Head>
         <Header />
+<Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></Script>
     <Waypoint onEnter={_handleEnter} />
         <div className="d-flex justify-content-center align-items-center">
             <Carousel />

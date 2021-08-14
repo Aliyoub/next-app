@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function Carousel() {
     return (
@@ -11,7 +12,7 @@ export default function Carousel() {
         <div className="carousel-inner ">
             <div className="carousel-item active">
             <div className="d-flex justify-content-center align-items-center">
-                <Image src="https://m.media-amazon.com/images/I/71n2eiYGmHL._AC_SL1500_.jpg"  height="500" alt="..."/>
+                <Image src="https://m.media-amazon.com/images/I/71n2eiYGmHL._AC_SL1500_.jpg"  height="500" width="222" alt="..."/>
             </div>
             <div className="carousel-caption d-none d-md-block carousel-content-container">
                 <h5>First slide label</h5>
@@ -20,7 +21,7 @@ export default function Carousel() {
             </div>
             <div className="carousel-item">
             <div className="d-flex justify-content-center align-items-center">
-                <Image src="https://m.media-amazon.com/images/I/51Tp8BrXykL._AC_SL1180_.jpg"  height="500" alt="..."/>
+                <Image src="https://m.media-amazon.com/images/I/51Tp8BrXykL._AC_SL1180_.jpg"  height="500" width="222" alt="..."/>
             </div>
             <div className="carousel-caption d-none d-md-block carousel-content-container">
                 <h5>Second slide label</h5>
@@ -29,7 +30,7 @@ export default function Carousel() {
             </div>
             <div className="carousel-item">
             <div className="d-flex justify-content-center align-items-center">
-                <Image src="https://m.media-amazon.com/images/I/51hdIfB7OJS._AC_SL1500_.jpg"  height="500" alt="..."/>
+                <Image src="https://m.media-amazon.com/images/I/51hdIfB7OJS._AC_SL1500_.jpg"  height="500" width="222" alt="..."/>
             </div>
             <div className="carousel-caption d-none d-md-block carousel-content-container">
                 <h5>Third slide label</h5>
