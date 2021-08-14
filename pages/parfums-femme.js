@@ -52,7 +52,7 @@ export default function Livres({posts}) {
                     </svg>
                     <div className="card-body">
                     <div className="d-flex justify-content-center align-items-center">
-                        <Image src={post.image} height={200} />
+                        <Image src={post.image} height={200} width={200} />
                     </div>
                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <div className="d-flex justify-content-between align-items-center">
