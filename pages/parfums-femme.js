@@ -78,7 +78,7 @@ export default function Livres({posts}) {
 }
 
 export async function getStaticProps(){
-    const posts = await fetch('https://jsonplaceholder.typicode.com/todos').then( // .then... pour convertir les données en json
+    const posts = await fetch('https://next-app-henna.vercel.app/api/parfumsFemme').then( // .then... pour convertir les données en json
         r=>r.json()
         )
         // ).then(myData => setPosts(myData))

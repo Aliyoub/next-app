@@ -11,7 +11,7 @@ export default function Post ({post}) {
 
 // Rendu côté serveur
 export async function getStaticProps({params}){
-    const post = await fetch(`https://jsonplaceholder.typicode.com/todos/${params.id}`).then( // .then... pour convertir les données en json
+    const post = await fetch(`https://next-app-henna.vercel.app/api/parfumsFemme/${params.id}`).then( // .then... pour convertir les données en json
         r=>r.json()
         )
     return {
@@ -22,7 +22,7 @@ export async function getStaticProps({params}){
 }
 
 export async function getStaticPaths(){
-    const posts = await fetch('https://jsonplaceholder.typicode.com/todos')
+    const posts = await fetch('https://next-app-henna.vercel.app/api/parfumsFemme')
         .then(r=>r.json())
     
     return {
