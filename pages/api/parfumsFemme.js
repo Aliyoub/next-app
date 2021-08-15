@@ -2,32 +2,26 @@ export default function handler(req, res) {
   res.status(200).json(
  [
 {
-id:  1 ,
-price:  "" ,
-image:  "",
-description:  "fff"
-},
-{
 id:  2 ,
-price:  "" ,
+price:  "48" ,
 image:  "https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/7782efc9-fc80-450a-807c-c86dbca52828._CR0,0,0,0_AC_SX130_SY60_QL70_.jpg",
 description:  ""
 },
 {
 id:  3 ,
-price:  "" ,
+price:  "49" ,
 image:  "https://m.media-amazon.com/images/I/71Ww4i0SI3L._AC_SR180,120_QL70_.jpg",
 description:  ""
 },
 {
 id:  4 ,
-price:  "" ,
+price:  "43" ,
 image:  "https://m.media-amazon.com/images/I/31Rnt6dTUhS._AC_SR180,120_QL70_.jpg",
 description:  ""
 },
 {
 id:  5 ,
-price:  "" ,
+price:  "98" ,
 image:  "https://m.media-amazon.com/images/I/318gl1x31hS._AC_SR180,120_QL70_.jpg",
 description:  ""
 },
@@ -78,12 +72,6 @@ id:  13 ,
 price:  "23,09" ,
 image:  "https://aax-eu.amazon.fr/e/loi/imp?b=Iqq8TRr02j73b3WwNKlzNoEAAAF7OMcaPgMAAAH2Aer8PNg",
 description:  ""
-},
-{
-id:  14 ,
-price:  "" ,
-image:  "",
-description:  "                "
 },
 {
 id:  15 ,
@@ -375,7 +363,7 @@ description:  "Elizabeth Arden – 5th Avenue NYC – Eau de Parfum Femme Vapori
 },
 {
 id:  63 ,
-price:  "" ,
+price:  "sss" ,
 image:  "https://m.media-amazon.com/images/I/81nnC6NAjjS._AC_UL320_.jpg",
 description:  "Parfum de femme"
 },
@@ -428,29 +416,12 @@ image:  "https://m.media-amazon.com/images/I/61AkBT5C+mS._AC_UL320_.jpg",
 description:  "Couleur Me violet Parfum de toilette en flacon Vaporisateur pour femme 50&nbsp;ml"
 },
 {
-id:  72 ,
-price:  "" ,
-image:  "",
-description:  "                "
-},
-{
-id:  73 ,
-price:  "" ,
-image:  "",
-description:  ""
-},
-{
 id:  74 ,
-price:  "" ,
+price:  "343" ,
 image:  "https://m.media-amazon.com/images/I/71Ww4i0SI3L._AC_SR139,139_QL70_.jpg",
 description:  ""
-},
-{
-id:  75 ,
-price:  "" ,
-image:  "",
-description:  ""
 }
+
 ]
        )
 }
